@@ -72,7 +72,10 @@ main{
 /* Grid */
 .grid-item-1{
     grid-column: 2 / 5;
-    
+}
+
+.grid-item-1 textarea{
+    font-size: 1.5rem;
 }
 
 /* contenedor textarea */
@@ -88,7 +91,7 @@ main{
 
 .contenedores textarea::placeholder{
     color: var(--ColorCuaternario);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .advertencia{
