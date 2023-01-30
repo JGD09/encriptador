@@ -110,7 +110,7 @@ main{
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 
-.grid-item-2 textarea{
+/*.grid-item-2 textarea{
     background-image: url("../img/muneco.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +118,7 @@ main{
     padding: 0 1.7rem;
 
 }
-
+*/
 .grid-item-2 h3{
     color: var(--colorOcho);
     font-size: 1.5rem;
@@ -157,18 +157,18 @@ main{
 }
 
 /* boton-encriptar */
-#btn-encriptar{
+#btnencriptar{
     background: var(--ColorCuaternario);
     color: var(--ColorTerciario);
 }
 
 /* boton-desencriptar */
-#btn-desencriptar{
+#btndesencriptar{
     background: var(--colorCinco);
 }
 
 /* botoncopiar */
-#btn-copiar{
+#btncopiar{
     
     background: var(--colorCinco);
 }

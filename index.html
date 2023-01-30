@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <!-- RESETCSS    -->
-        <link rel="stylesheet" href="./assets/css/reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- mipropioestilo -->
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- RESETCSS    -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
 
-        <!-- iconos -->
-        <script
-            src="https://kit.fontawesome.com/756f501363.js"
-            crossorigin="anonymous"
-        ></script>
+    <!-- mipropioestilo -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-        <title>Encriptador de texto</title>
-    </head>
-    <body>
-        <!-- header -->
-        <header>
-            <!-- imgMilogo -->
-            <img  src="./assets/img/Logo.png" alt="Logo Alura">
-        </header>
-        <!-- cuerpo -->
-        <main>
-            <!-- desencriptador -->
-            <section class="contenedores grid-item-1">
-                <!-- textoentrada -->
-                <textarea 
-                    id="textoEntrada" 
-                    placeholder="Ingrese el texto aquí" 
-                ></textarea>
-                <!-- advertencia -->
-                <div class="advertencia">
-                    <p>
-                      <span><i class="fa-sharp fa-solid fa-circle-exclamation"></i></span>
-                      Solo letras minúsculas y sin acentos
-                    </p>
-                </div>
+    <!-- iconos -->
+    <script
+      src="https://kit.fontawesome.com/756f501363.js"
+      crossorigin="anonymous"
+    ></script>
 
-                <!-- contenderobotones -->
-                <div id="cajaBotones">
-                    <button id="btn-encriptar" class="botones">Encriptar</button>
-                    <button id="btn-desencriptar" class="botones">Desencriptar</button>
-                </div>
-            </section>
-            <!-- Encriptador -->
-            <section class="contenedores grid-item-2">
-                <!-- textoencriptado -->
-                <textarea id="textoSalida"></textarea>
-                <!-- textos -->
-                <div class="textos">
-                    <h3>Ningun mensaje fue encontrado</h3>
-                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
-                </div>
-                <!-- botoncopiar -->
-                <button id="btn-copiar" class="botones">copiar</button>
-            </section>
-        </main>
-        <!-- footer -->
-        <footer>
-            <!-- redessociales -->
-            <h1>&#169;copyrigth</h1>
-            <h2>Redes Sociales</h2>
-            <a href="https://github.com/JGD09"><i class="fa-brands fa-github"></i></a>
-            <a href=""></a>
-            <a href="https://www.linkedin.com/in/jes%C3%BAs-de-hoyos-dwf/"><i class="fa-brands fa-linkedin"></i></a>
-        </footer>
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- imgMilogo -->
+      <img src="./assets/img/Logo.png" alt="Logo Alura" />
+    </header>
+    <!-- cuerpo -->
+    <main>
+      <!-- desencriptador -->
+      <section class="contenedores grid-item-1">
+        <!-- textoentrada -->
+        <textarea
+          id="textoEntrada"
+          placeholder="Ingrese el texto aquí"
+        ></textarea>
+        <!-- advertencia -->
+        <div class="advertencia">
+          <p>
+            <span><i class="fa-sharp fa-solid fa-circle-exclamation"></i></span>
+            Solo letras minúsculas y sin acentos
+          </p>
+        </div>
 
-        <script src="./assets/js/scripts.js"></script>
-    </body>
+        <!-- contenderobotones -->
+        <div id="cajaBotones">
+          <button id="btnencriptar"  class="botones">Encriptar</button>
+          <button id="btndesencriptar" class="botones">Desencriptar</button>
+        </div>
+      </section>
+      <!-- Encriptador -->
+      <section class="contenedores grid-item-2">
+        <!-- textoencriptado -->
+        <textarea 
+         id="textoSalida"></textarea>
+          <img src="./assets/img/muneco.png" alt="imagen-muñeco">
+        <!-- textos -->
+        <div class="textos">
+          <h3>Ningun mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <!-- botoncopiar -->
+        <button id="btncopiar" class="botones">copiar</button>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <!-- redessociales -->
+      <h1>&#169;copyrigth</h1>
+      <h2>Redes Sociales</h2>
+      <a href="https://github.com/JGD09"><i class="fa-brands fa-github"></i></a>
+      <a href=""></a>
+      <a href="https://www.linkedin.com/in/jes%C3%BAs-de-hoyos-dwf/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+  </body>
 </html>
