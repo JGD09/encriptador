@@ -80,7 +80,7 @@ main {
 
 /* contenedor textarea */
 .contenedores textarea {
-    height: 65%;
+    height: 90%;
     width: 100%;
     background-color: #f3f5fc;
     border-radius: 20px;
@@ -114,7 +114,7 @@ main {
 .grid-item-2 textarea {
     font-size: 1.5rem;
     padding: 0 1.7rem;
-    display: none;
+     display: contents; 
 }
 
 .grid-item-2 img {
@@ -147,12 +147,13 @@ main {
 .botones {
     width: 80%;
     border-radius: 24px;
-    height: 67px;
+    height: 56.17px;
     border: var(--ColorCuaternario) solid 1px;
 }
 
-.textos {
-    width: 80%;
+#textos {
+    width: 100%;
+    height: 10%;
 }
 
 /* boton-encriptar */
@@ -169,6 +170,7 @@ main {
 /* botoncopiar */
 #btncopiar {
     background: var(--colorCinco);
+    visibility: hidden;
 }
 
 footer {
